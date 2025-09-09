@@ -7,9 +7,7 @@ import Checkbox from '../components/form/Checkbox/Checkbox';
 import Text from '../components/form/Text/Text';
 import { formatName } from '../utils/formatName';
 import '../styles/global.css';
-
-
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function HomePage() {
   const { user, login, logout } = useAuth();
